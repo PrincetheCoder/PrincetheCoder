@@ -1,0 +1,232 @@
+html,
+body {
+    margin:0;
+    padding:0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    scroll-behavior: smooth;
+    position: relative;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/*  =======      Header      ========*/
+
+header {
+    background-color: black;
+    height: max-content;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+/*=== logo ===*/
+
+.logo-container {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+.logo-link {
+    display: block;
+    padding: 15px 10px 3px 10px;
+    width: 18%;
+    margin: auto;
+    border-radius: 50%;
+}
+.logo {
+    width: 100%;
+    border-radius: 50%;
+    margin: auto;
+    border: 1px solid blueviolet;
+    padding: 8px 5px;
+}
+
+/*===  Navigation bar  ===*/
+
+.Navbar-fluid {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    position: relative;
+}
+
+/*===  social media container & Menu items container ===*/
+
+.right {
+    margin: 0 ;
+    padding: 0;
+    position: relative;
+}
+.soc-items,
+.menu-item {
+    display: flex;
+    padding: 15px 10px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.menu-items,
+.soc-link {
+    padding: 0 5px;
+    margin: 0;
+    position: relative;
+}
+.so-link,
+.menu-links {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    transition: all 2s ease-in-out;
+    padding: 4px 8px;
+}
+.so-link:hover,
+.menu-links:hover {
+   color: white;
+   border: 1px solid white;
+}
+
+/*=== Hamburger menu icon  ===*/
+
+.btn {
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    color: white;
+    border: 1px solid white;
+    background: none;
+    outline:none;
+    cursor: pointer;
+    display: none;
+}
+
+/*===  chat button @  ===*/
+
+.chat {
+    font-size: medium;
+    text-transform: initial;
+    font-weight: 400;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    transition: all 2s ease-in-out;
+    background-color: black;
+    position: relative;
+    padding: 4px 8px;
+}
+.chat:hover {
+    background-color: transparent;
+}
+
+
+/*=== dropdown menu links to whatsapp, phone, email ===*/
+
+.dropdown-menu {
+    background-color: blueviolet;
+    width: max-content;
+    padding: 1rem;
+    position: absolute;
+    display: none;
+    margin-top: .3rem;
+}
+.drop-items {
+    padding: 0;
+    margin:5px 0;
+}
+.contact {
+    font-size: large;
+    color: white;
+}
+.dropping:hover .dropdown-menu {
+    display: block;
+    z-index: 2;
+}
+
+
+/*=== main content area ===*/
+
+main {
+    width:100%;
+    padding:1rem 0;
+    margin:0;
+    position: relative;
+    background-image: linear-gradient(to left, blueviolet, lightblue);
+    min-height: 70vh;
+}
+
+.container {
+    width: 90%;
+    background-color: rgba(0,0,0,.3);
+    padding: 10px;
+    margin:0 auto;
+}
+/*=== hero section / Jumbotron ===*/
+.wrapper {
+    width: 95%;
+    margin: 0 auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    position: relative;
+    align-items: center;
+    height: 60vh;
+}
+.box {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+.responsive {
+    width: 75%;
+    border-radius: 1rem;
+}
+.wrapp {
+    border-left: 2px solid white;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+}
+.hero-text {
+    color: white;
+    font-size: 2.5rem;
+}
+.tex {
+    padding: 20px 0;
+    margin-top: 10px;
+    position: relative;
+}
+.text {
+    font-size: larger;
+    font-weight: 500;
+    opacity: .8;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.hero-btn {
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    border:none;
+    margin-top: 10px;
+}
+.hero-contact {
+    font-size: 1.3rem;
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    border: 2px solid white;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
