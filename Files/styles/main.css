@@ -168,7 +168,7 @@ main {
 .container {
     width: 90%;
     background-color: rgba(0,0,0,.3);
-    padding: 10px;
+    padding: 10px 0;
     margin:0 auto;
 }
 /*=== hero section / Jumbotron ===*/
@@ -229,4 +229,26 @@ main {
     border: 2px solid white;
     text-transform: capitalize;
     border-radius: 10px;
+}
+
+.divider   {
+    height: 1rem;
+    width:100%;
+    margin: 0 auto;
+    position: relative;
+    background-color: white;
+}
+/* about me section on the main web*/
+
+.about-details  {
+    height: 75vh;
+    width:100%;
+    background-color: rgba(0,0,0,.3);
+    margin: 0 auto;
+    padding: 15px 0;
+    position: relative;
+    text-align: center;
+}
+.mimi {
+    position: relative;
 }
